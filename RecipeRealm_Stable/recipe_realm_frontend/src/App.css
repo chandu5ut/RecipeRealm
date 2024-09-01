@@ -1,0 +1,51 @@
+
+ .push-enter {
+  transform: translateX(100%);
+}
+
+.push-enter-active {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.push-exit {
+  transform: translateX(0);
+}
+
+.push-exit-active {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+/* App.css */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+
+
+
